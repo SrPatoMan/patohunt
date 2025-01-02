@@ -27,7 +27,7 @@ echo -e "$RESET_COLOR"
 sleep 1
 
 
-if [ auditoria == 1 ];then
+if [ $auditoria == 1 ];then
 mkdir $organizacion
 mkdir -p $organizacion/subdominios
 mkdir -p $organizacion/fuzzing
